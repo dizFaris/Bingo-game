@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:cursive;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 69%, rgba(2,0,36,1) 100%);
+    padding: 1px;
+}
+
+#CurrentNumber{
+    position: fixed;
+    border: 4px solid white;
+    width: 15%;
+    height: 30%;
+    border-radius: 50%;
+    left: 45%;
+    top: 10%;
+}
+
+.Field{
+    width: 4.5%;
+    height: 9%;
+    border-radius: 50%;
+    border: 2px solid white;
+    float: left;
+}
+
+.hidden{
+    display: none;
+}
+
+/*FIRST 5 FIELDS IN THE MIDDLE*/
+/*---------------------------------------------*/
+#field1{
+    position: fixed;
+    top: 2.5%;
+    left: 44%;
+}
+
+#field2{
+    position: fixed;
+    top: 11%;
+    left: 40.5%;
+}
+
+#field3{
+    position: fixed;
+    top: 21.5%;
+    left: 39.5%;
+}
+
+#field4{
+    position: fixed;
+    top: 32%;
+    left: 41.3%;
+}
+
+#field5{
+    position: fixed;
+    top: 39%;
+    left: 45.5%;
+}
+/*---------------------------------------------*/
+
+/*9 FIELDS TO THE LEFT*/
+/*---------------------------------------------*/
+#field6{
+    position: fixed;
+    top: 2.5%;
+    left: 5%;
+}
+
+#field7{
+    position: fixed;
+    top: 13%;
+    left: 5%;
+}
+
+#field8{
+    position: fixed;
+    top:23%;
+    left: 5%;
+}
+
+#field9
+{
+    position: fixed;
+    top:33%;
+    left: 5%;
+}
+
+#field10
+{
+    position: fixed;
+    top:43%;
+    left: 5%;
+}
+
+#field11
+{
+    position: fixed;
+    top:53%;
+    left: 5%;
+}
+
+#field12
+{
+    position: fixed;
+    top:63%;
+    left: 5%;
+}
+
+#field13
+{
+    position: fixed;
+    top:73%;
+    left: 5%;
+}
+
+#field14
+{
+    position: fixed;
+    top:83%;
+    left: 5%;
+}
+/*---------------------------------------------*/
+
+/*NUMBERS NEXT TO 9 FIELDS TO THE LEFT*/
+/*---------------------------------------------*/
+#field6paragraph{
+    position: fixed;
+    top: 5%;
+    left: 10%;
+}
+
+#field7paragraph{
+    position: fixed;
+    top: 15.5%;
+    left: 10%;
+}
+
+#field8paragraph{
+    position: fixed;
+    top: 25.5%;
+    left: 10%;
+}
+
+#field9paragraph{
+    position: fixed;
+    top: 35.5%;
+    left: 10%;
+}
+
+#field10paragraph{
+    position: fixed;
+    top: 45.5%;
+    left: 10%;
+}
+
+#field11paragraph
+{
+    position: fixed;
+    top: 55.5%;
+    left: 10%;
+}
+
+#field12paragraph{
+    position:fixed;
+    top: 65.5%;
+    left: 10%;
+}
+
+#field13paragraph{
+    position:fixed;
+    top: 75.5%;
+    left: 10%;
+}
+
+#field14paragraph
+{
+    position:fixed;
+    top: 85.5%;
+    left: 10%;
+}
+/*---------------------------------------------*/
+
+/*6 FIELDS TO THE LEFT*/
+/*---------------------------------------------*/
+#field15
+{
+    position: fixed;
+    top: 33%;
+    left: 15%;
+
+}
+
+#field16
+{
+    position: fixed;
+    top: 43%;
+    left: 15%;
+}
+
+#field17
+{
+    position: fixed;
+    top: 53%;
+    left: 15%;
+}
+
+#field18
+{
+    position: fixed;
+    top: 63%;
+    left: 15%;
+}
+
+#field19
+{
+    position: fixed;
+    top: 73%;
+    left: 15%;
+}
+
+#field20
+{
+    position:fixed;
+    top: 83%;
+    left: 15%;
+}
+/*---------------------------------------------*/
+
+/*NUMBERS NEXT TO 6 FIELDS TO THE LEFT*/
+#field15paragraph
+{
+    position:fixed;
+    top: 35.5%;
+    left: 20%;
+}
+
+#field16paragraph
+{
+    position:fixed;
+    top:45.5%;
+    left:20%;
+}
+
+#field17paragraph
+{
+    position:fixed;
+    top:55.5%;
+    left:20%;
+}
+
+#field18paragraph
+{
+    position: fixed;
+    top:65.5%;
+    left:20%;
+}
+
+#field19paragraph
+{
+    position:fixed;
+    top:75.5%;
+    left:20%;
+}
+
+#field20paragraph
+{
+    position:fixed;
+    top:85.5%;
+    left:20%;
+}
+/*---------------------------------------------*/
+
+/*6 FIELDS TO THE RIGHT*/
+/*---------------------------------------------*/
+#field21
+{
+    position: fixed;
+    top:33%;
+    left:80%;
+}
+
+#field22
+{
+    position: fixed;
+    top:43%;
+    left:80%;
+}
+
+#field23
+{
+    position: fixed;
+    top:53%;
+    left:80%;
+}
+
+#field24
+{
+    position: fixed;
+    top:63%;
+    left:80%;
+}
+
+#field25
+{
+    position:fixed;
+    top:73%;
+    left:80%;
+}
+
+#field26
+{
+    position: fixed;
+    top:83%;
+    left:80%;
+}
+/*---------------------------------------------*/
+
+/*NUMBERS NEXT TO 6 FIELDS TO THE RIGHT*/
+/*---------------------------------------------*/
+#field21paragraph
+{
+    position:fixed;
+    top:35.5%;
+    left:85%;
+}
+
+#field22paragraph
+{
+    position:fixed;
+    top:45.5%;
+    left:85%;
+}
+
+#field23paragraph
+{
+    position:fixed;
+    top:55.5%;
+    left:85%;
+}
+
+#field24paragraph
+{
+    position:fixed;
+    top:65.5%;
+    left:85%;
+}
+
+#field25paragraph
+{
+    position:fixed;
+    top:75.5%;
+    left:85%;
+}
+
+#field26paragraph
+{
+    position:fixed;
+    top:85.5%;
+    left:85%;
+}
+/*---------------------------------------------*/
+
+/*9 FIELDS TO THE RIGHT*/
+/*---------------------------------------------*/
+#field27
+{
+    position:fixed;
+    top:2.5%;
+    left:90%;
+}
+
+#field28
+{
+    position: fixed;
+    top:13%;
+    left:90%;
+}
+
+#field29
+{
+    position:fixed;
+    top:23%;
+    left:90%;
+}
+
+#field30
+{
+    position: fixed;
+    top:33%;
+    left:90%;
+}
+
+#field31
+{
+    position:fixed;
+    top:43%;
+    left:90%;
+}
+
+#field32
+{
+    position:fixed;
+    top:53%;
+    left:90%;
+}
+
+#field33
+{
+    position:fixed;
+    top:63%;
+    left:90%;
+    
+}
+
+#field34
+{
+    position: fixed;
+    top:73%;
+    left:90%;
+}
+
+#field35
+{
+    position:Fixed;
+    top:83%;
+    left:90%;
+}
+/*---------------------------------------------*/
+
+/*NUMBERS NEXT TO 9 FIELDS TO THE RIGHT*/
+/*---------------------------------------------*/
+#field27paragraph
+{
+    position:fixed;
+    top:13.5%;
+    left:96%;
+}
+
+#field27paragraph
+{
+    top:5%;
+    position: fixed;
+    left:95%;
+}
+
+#field28paragraph
+{
+    position: fixed;
+    top:15.5%;
+    left:95%;
+}
+
+#field29paragraph
+{
+    position:fixed;
+    top:25.5%;
+    left:95%;
+}
+
+#field30paragraph
+{
+
+    position:fixed;
+    top:35.5%;
+    left:95%;
+}
+
+#field31paragraph
+{
+    position:fixed;
+    top:45.5%;
+    left:95%;
+}
+
+#field32paragraph
+{
+    position:fixed;
+    top:55.5%;
+    left:95%;
+}
+
+#field33paragraph
+{
+   position:fixed;
+   top:65.5%;
+   left:95%;
+}
+
+#field34paragraph
+{
+position:fixed;
+top:75.5%;
+left:95%;
+}
+
+#field35paragraph
+{
+    position:fixed;
+    top:85.5%;
+    left:95%;
+}
+/*---------------------------------------------*/
+
+#PlayersNumbers{
+    text-align: center;
+    width: 50%;
+    position: fixed;
+    top: 70%;
+    height: 17.5%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlayersNumbersAll{
+    height: 90%;
+    width: 90%;
+    margin-left: 1%;
+}
+
+#startButton{
+    position: fixed;
+    top: 53%;
+    left: 42.5%;
+    width: 15%;
+    height: 9%;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: white;
+}
+
+#startButton:hover{
+    background-color: silver;
+    color: black;
+}
+
+#changeNumbers{
+    font-size: 15px;
+    position: fixed;
+    top: 90%;
+    left: 55%;
+    width: 15%;
+    height: 7%;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: white;
+}
+
+#changeNumbers:hover{
+    background-color: silver;
+    color: black;
+}
+
+#RESET{
+    font-size: 15px;
+    position: fixed;
+    top: 90%;
+    left: 30%;
+    width: 15%;
+    height: 7%;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: white;
+}
+
+#RESET:hover{
+    background-color: silver;
+    color: black;
+}
+
+h2{
+    position: fixed;
+    top: 64%;
+    width: 15%;
+    left: 42.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#InputNumbers{
+    position: fixed;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 96%);
+    height: 30%;
+    width: 40%;
+    left: 30%;
+    top: 40%;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.inputFields{
+    background-color: rgb(65, 77, 185);
+    display: inline-block;
+    width: 12%;
+    height: 30%;
+    margin-left: 2%;
+    margin-top: 4%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+#InputNumbers button{
+    text-transform: uppercase;
+    margin-top: 5%;
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    border: 3px solid silver;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+#InputNumbers button:hover{
+    background-color: silver;
+}
+
+#moneyLabel{
+    float: left;
+    padding-top: 7%;
+    padding-left: 3%;
+}
+
+#money{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top: 6%;
+    color: white;
+    font-size: 30px;
+    margin-left: 3%;
+    text-align: right;
+    background-color: rgb(96, 96, 230)
+}
+
+#endingWindow{
+    background-color: blue;
+    position: fixed;
+    width: 30%;
+    left: 35%;
+    top: 30%;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    height: 30%;
+}
+
+
+h3{
+    color: yellow;
+    padding-top: 4%;
+}
+
+#playAgain{
+    text-transform: uppercase;
+    width: 40%;
+    height: 20%;
+    border-radius: 20px;
+    border: 3px solid silver;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+#playAgain:hover{
+    background-color: silver;
+}
+
+.prizeText{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 2%;
+    animation: animate 0.4s linear infinite;
+}
+
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+#bingo1{
+    left: 20%;
+}
+
+#bingo2{
+    left: 65%;
+}
+
+.bingo{
+    position: fixed;
+    width: 20%;
+    top: 15%;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.startPlaying{
+    animation: effect 2s infinite;
+}
+
+@keyframes effect {
+    20%{
+        color: yellow;
+    }
+    40%{
+        color: red;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: greenyellow;
+    }
+    100%{
+        color: greenyellow;
+    }
+
+}
+
+.WinningNumber{
+    opacity: 0.1;
+}
+
+.ballPicture{
+    width: 100%;
+    height: 100%;
+}

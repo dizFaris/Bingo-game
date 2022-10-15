@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo</title>
+</head>
+<body>
+    <div id="CurrentNumber"></div>
+
+    <div class="Field" id="field1"></div>
+    <div class="Field" id="field2"></div>
+    <div class="Field" id="field3"></div>
+    <div class="Field" id="field4"></div>
+    <div class="Field" id="field5"></div>
+
+    <div class="Field" id="field6"></div>
+    <p id="field6paragraph">10000</p>
+
+    <div class="Field" id="field7"></div>
+    <p id="field7paragraph">7500</p>
+
+    <div class="Field" id="field8"></div>
+    <p id="field8paragraph">5000</p>
+
+    <div class="Field" id="field9"></div>
+    <p id="field9paragraph">2500</p>
+
+    <div class="Field" id="field10"></div>
+    <p id="field10paragraph">1000</p>
+
+    <div class="Field" id="field11"></div>
+    <p id="field11paragraph">500</p>
+
+    <div class="Field" id="field12"></div>
+    <p id="field12paragraph">300</p>
+
+    <div class="Field" id="field13"></div>
+    <p id="field13paragraph">200</p>
+
+    <div class="Field" id="field14"></div>
+    <p id="field14paragraph">150</p>
+
+    <div class="Field" id="field15"></div>
+    <p id="field15paragraph">100</p>
+
+    <div class="Field" id="field16"></div>
+    <p id="field16paragraph">90</p>
+
+    <div class="Field" id="field17"></div>
+    <p id="field17paragraph">80</p>
+
+    <div class="Field" id="field18"></div>
+    <p id="field18paragraph">70</p>
+
+    <div class="Field" id="field19"></div>
+    <p id="field19paragraph">60</p>
+
+    <div class="Field" id="field20"></div>
+    <p id="field20paragraph">50</p>
+
+    <div class="Field" id="field21"></div>
+    <p id="field21paragraph">40</p>
+
+    <div class="Field" id="field22"></div>
+    <p id="field22paragraph">30</p>
+
+    <div class="Field" id="field23"></div>
+    <p id="field23paragraph">25</p>
+
+    <div class="Field" id="field24"></div>
+    <p id="field24paragraph">20</p>
+
+    <div class="Field" id="field25"></div>
+    <p id="field25paragraph">15</p>
+
+    <div class="Field" id="field26"></div>
+    <p id="field26paragraph">10</p>
+
+    <div class="Field" id="field27"></div>
+    <p id="field27paragraph">9</p>
+
+    <div class="Field" id="field28"></div>
+    <p id="field28paragraph">8</p>
+
+    <div class="Field" id="field29"></div>
+    <p id="field29paragraph">7</p>
+
+    <div class="Field" id="field30"></div>
+    <p id="field30paragraph">6</p>
+
+    <div class="Field" id="field31"></div>
+    <p id="field31paragraph">5</p>
+
+    <div class="Field" id="field32"></div>
+    <p id="field32paragraph">4</p>
+
+    <div class="Field" id="field33"></div>
+    <p id="field33paragraph">3</p>
+
+    <div class="Field" id="field34"></div>
+    <p id="field34paragraph">2</p>
+
+    <div class="Field" id="field35"></div>
+    <p id="field35paragraph">1</p>
+
+    <h2>Your numbers</h2>
+    <div id="PlayersNumbers">
+        <div class="Field PlayersNumbersAll" id="PlayersNumber1"></div>
+        <div class="Field PlayersNumbersAll" id="PlayersNumber2"></div>
+        <div class="Field PlayersNumbersAll" id="PlayersNumber3"></div>
+        <div class="Field PlayersNumbersAll" id="PlayersNumber4"></div>
+        <div class="Field PlayersNumbersAll" id="PlayersNumber5"></div>
+        <div class="Field PlayersNumbersAll" id="PlayersNumber6"></div>
+    </div>
+
+    <button id="startButton" class="hidden">START BINGO</button>
+    <button id="changeNumbers" class="hidden">CHANGE NUMBERS</button>
+    <button id="RESET" class="hidden">RESET</button>
+
+    <div id="InputNumbers">
+        <input type="number" name="" id="number1" class="inputFields">
+        <input type="number" name="" id="number2" class="inputFields">
+        <input type="number" name="" id="number3" class="inputFields">
+        <input type="number" name="" id="number4" class="inputFields">
+        <input type="number" name="" id="number5" class="inputFields">
+        <input type="number" name="" id="number6" class="inputFields">
+        <label for="input" id="moneyLabel">Amount of money:</label>
+        <input type="number" name="" id="money">
+        <button id="SubmitNumbers">Submit</button>
+    </div>
+
+    <div id="endingWindow" class="hidden">
+        <h3>Congratulations!</h3>
+        <h3>You won!</h3>
+        <h3>Your prize is</h3>
+        <p id="prize" class="prizeText">5000</p>
+        <button id="playAgain">Play again</button>
+    </div>
+
+    <h1 id="bingo1" class="bingo">BINGO</h1>
+    <h1 id="bingo2" class="bingo">BINGO</h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
